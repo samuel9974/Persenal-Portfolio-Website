@@ -76,9 +76,12 @@
 		owl carousel slider
 		=============================*/
 		if($('.main-slider').length) {
-			$('.main-slider').owlCarousel({
-				loop:true,
+			var $mainSlider = $('.main-slider');
+			var mainSlideCount = $mainSlider.children('.item').length;
+			$mainSlider.owlCarousel({
+				loop: mainSlideCount > 1,
 				items:1,
+				dots: mainSlideCount > 1,
 				autoplay:false,
 				smartSpeed:800,
 				autoplayTimeout:3000,

@@ -1172,6 +1172,36 @@ Buttons
   color: #222;
 }
 
+a.social-btn.social-btn--linkedin {
+  background: #0077b5;
+  color: #fff;
+}
+
+a.social-btn.social-btn--linkedin:hover,
+a.social-btn.social-btn--linkedin:focus {
+  background: #005f8f;
+  color: #fff;
+}
+
+a.social-btn.social-btn--linkedin i {
+  color: #fff;
+}
+
+a.social-btn.social-btn--github {
+  background: #2ea44f;
+  color: #fff;
+}
+
+a.social-btn.social-btn--github:hover,
+a.social-btn.social-btn--github:focus {
+  background: #238636;
+  color: #fff;
+}
+
+a.social-btn.social-btn--github i {
+  color: #fff;
+}
+
 .btn.btn-icon.btn-sm {
   padding-left: 42px;
 }
@@ -4325,11 +4355,25 @@ p.drop-caps.secondary.drop-caps-round:first-child:first-letter {
 .social-icons li a i.fa-skype:hover {
   background: #00aff0;
 }
-.social-icons li a i.fa-linkedin:hover {
+.social-icons li a i.fa-linkedin,
+.footer-widget .social-icons li a i.fa-linkedin {
   background: #0077b5;
+  color: #fff;
 }
-.social-icons li a i.fa-github:hover {
-  background: #6cc644;
+.social-icons li a i.fa-linkedin:hover,
+.footer-widget .social-icons li a i.fa-linkedin:hover {
+  background: #005f8f;
+  color: #fff;
+}
+.social-icons li a i.fa-github,
+.footer-widget .social-icons li a i.fa-github {
+  background: #2ea44f;
+  color: #fff;
+}
+.social-icons li a i.fa-github:hover,
+.footer-widget .social-icons li a i.fa-github:hover {
+  background: #238636;
+  color: #fff;
 }
 .social-icons li a i.fa-vimeo:hover {
   background: #1ab7ea;

@@ -206,10 +206,10 @@
 					// Not initialized as a Magnific root (or already destroyed)
 				}
 			}
-			$portCarousel.on('click', '.portfolio-content a', function(e) {
+			$portCarousel.on('click', '.portfolio-links a', function(e) {
 				e.stopPropagation();
 			});
-			$portCarousel.on('touchstart mousedown', '.portfolio-content a', function(e) {
+			$portCarousel.on('touchstart mousedown', '.portfolio-links a', function(e) {
 				e.stopPropagation();
 			});
 
@@ -276,7 +276,7 @@
 				if (!t || !t.closest) {
 					return;
 				}
-				var a = t.closest('#portfolio .portfolio-content a[href^="http"]');
+				var a = t.closest('#portfolio .portfolio-links a[href^="http"]');
 				if (!a) {
 					return;
 				}

@@ -258,10 +258,6 @@
   .font-size-h4 {
     font-size: 22px;
   }
-  .portfolio-content {
-    min-height: 200px;
-    padding: 16px 18px 14px;
-  }
   .portfolio-btn {
     left: 25px;
   }
@@ -1003,19 +999,6 @@
   .cta-row .btn {
     margin: 10px 0;
     display: block;
-  }
-  .portfolio-content {
-    min-height: 190px;
-    padding: 14px 15px 12px;
-  }
-  .portfolio-overlay {
-    font-size: 12px;
-  }
-  .portfolio-overlay .portfolio-content h3,
-  .portfolio-overlay .portfolio-content h4,
-  .portfolio-overlay .portfolio-content h5 {
-    margin: 15px 0 10px;
-    font-size: 22px;
   }
   .portfolio-btn {
     left: 15px;

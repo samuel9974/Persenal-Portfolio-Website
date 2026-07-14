@@ -176,25 +176,31 @@
 				margin: 20,
 				autoplay:false,
 				autoWidth: false,
+				center: false,
+				stagePadding: 0,
 				smartSpeed:800,
 				nav : true,
+				dots: true,
 				autoplayTimeout:3000,
 				responsive : {
 					0 : {
 						items: 1,
 						center: false,
+						stagePadding: 0,
 						margin: 12,
 						nav : false
 					},
-					576 : {
+					768 : {
 						items: 2,
-						center: true,
+						center: false,
+						stagePadding: 0,
 						margin: 16,
 						nav : true
 					},
 					992 : {
 						items: 3,
-						center: true,
+						center: false,
+						stagePadding: 0,
 						margin: 20,
 						nav : true
 					}

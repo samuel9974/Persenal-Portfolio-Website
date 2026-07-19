@@ -2373,9 +2373,9 @@ Main slider css
   z-index: 2;
 }
 .slider-content h2 {
-  font-size: 82px;
+  font-size: 48px;
   margin-bottom: 15px;
-  line-height: 1.125;
+  line-height: 1.25;
   color: #fff;
   text-transform: none;
 }
@@ -2480,7 +2480,7 @@ Main slider css
 
 /* Keep hero headline size stable while Typed.js runs (stops icons jumping) */
 .slider-content h2.title-animate {
-  min-height: 2.6em;
+  min-height: 2.4em;
 }
 /* Min-width replaces the old hidden “width hold” span so the phrase is not duplicated in the DOM */
 .slider-content .typed-anchor {
@@ -2488,7 +2488,7 @@ Main slider css
   vertical-align: baseline;
 }
 .slider-content .typed-anchor--long {
-  min-width: min(100%, 22ch);
+  min-width: min(100%, 28ch);
 }
 .slider-content .typed-anchor--medium {
   min-width: min(100%, 20ch);
@@ -2498,8 +2498,15 @@ Main slider css
   font-family: "Montserrat", sans-serif;
   display: inline-block;
 }
+.slider-content .hero-lead {
+  max-width: 34em;
+  margin: 0.85em 0 0;
+  font-size: 15px;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.88);
+}
 .slider-content .btn-row {
-  margin-top: 0.35em;
+  margin-top: 1.1em;
 }
 
 .main-slider .owl-dots {
@@ -3030,8 +3037,9 @@ Portfolio section css
   --card-lift: 0px;
   position: relative;
   width: 100%;
-  height: 100%;
-  min-height: 360px;
+  height: 500px;
+  min-height: 500px;
+  max-height: 500px;
   overflow: hidden;
   background: linear-gradient(
     155deg,
@@ -3097,9 +3105,14 @@ Portfolio section css
 .portfolio-meta {
   position: relative;
   z-index: 1;
-  flex: 0 0 auto;
-  padding: 18px 18px 12px;
+  flex: 0 0 148px;
+  height: 148px;
+  min-height: 148px;
+  max-height: 148px;
+  padding: 16px 18px 12px;
   background: transparent;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .portfolio-title {
@@ -3111,6 +3124,12 @@ Portfolio section css
   text-transform: uppercase;
   color: #1b1f27;
   line-height: 1.3;
+  min-height: 1.3em;
+  max-height: 2.6em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .portfolio-tech {
@@ -3118,12 +3137,31 @@ Portfolio section css
   font-size: 12px;
   line-height: 1.45;
   color: #5c6570;
+  min-height: 1.45em;
+  max-height: 2.9em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.portfolio-summary {
+  margin: 8px 0 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #3d4652;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 4.5em;
+  max-height: 4.5em;
 }
 
 .portfolio-media {
   position: relative;
   flex: 1 1 auto;
-  min-height: 180px;
+  min-height: 0;
   overflow: hidden;
   background: #12161e;
 }
@@ -3207,14 +3245,19 @@ Portfolio section css
   z-index: 5;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: flex-start;
   gap: 8px;
+  flex: 0 0 68px;
+  height: 68px;
+  min-height: 68px;
+  max-height: 68px;
   padding: 14px 16px 16px;
   pointer-events: auto;
   background: rgba(248, 249, 251, 0.96);
   border-top: 1px solid rgba(18, 22, 30, 0.06);
+  box-sizing: border-box;
 }
 
 .portfolio-link {
@@ -3361,11 +3404,23 @@ Portfolio section css
   }
 
   .portfolio-box {
-    min-height: 340px;
+    height: 460px;
+    min-height: 460px;
+    max-height: 460px;
+  }
+
+  .portfolio-slider .item {
+    height: 460px;
+    min-height: 460px;
+    max-height: 460px;
   }
 
   .portfolio-meta {
-    padding: 16px 14px 10px;
+    flex-basis: 140px;
+    height: 140px;
+    min-height: 140px;
+    max-height: 140px;
+    padding: 14px 14px 10px;
   }
 
   .portfolio-title {
@@ -3436,9 +3491,15 @@ Portfolio section css
 .portfolio-slider {
   padding: 20px 0;
 }
+.portfolio-slider .owl-stage {
+  display: flex;
+  align-items: stretch;
+}
 .portfolio-slider .owl-item {
   display: flex;
   align-items: stretch;
+  float: none;
+  height: auto;
 }
 .portfolio-slider .item {
   -webkit-transition: 0.8s;
@@ -3450,12 +3511,14 @@ Portfolio section css
   flex-direction: column;
   flex: 1;
   width: 100%;
-  height: auto;
-  min-height: 360px;
+  height: 500px;
+  min-height: 500px;
+  max-height: 500px;
   margin: 0;
 }
 .portfolio-slider .portfolio-box,
 .portfolio-slider .portfolio-block {
+  width: 100%;
   height: 100%;
 }
 .portfolio-slider .portfolio-box {
@@ -3645,6 +3708,15 @@ Skills section css
 }
 .skills-card:nth-child(6) {
   transition-delay: 175ms;
+}
+.skills-card:nth-child(7) {
+  transition-delay: 210ms;
+}
+.skills-card:nth-child(8) {
+  transition-delay: 245ms;
+}
+.skills-card:nth-child(9) {
+  transition-delay: 280ms;
 }
 
 .skills-category {

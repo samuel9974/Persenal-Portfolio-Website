@@ -143,7 +143,11 @@
     padding: 30px;
   }
   .slider-content h2 {
-    font-size: 50px;
+    font-size: 36px;
+  }
+  .slider-content .hero-lead {
+    font-size: 14px;
+    max-width: 28em;
   }
   .about-section .list {
     margin-top: 30px;
@@ -261,8 +265,11 @@
   .filters-nav li {
     margin: 0 1px;
   }
+  .portfolio-slider .item,
   .portfolio-box {
-    height: auto;
+    height: 460px;
+    min-height: 460px;
+    max-height: 460px;
   }
   h1,
   h2,
@@ -470,7 +477,7 @@
     height: 550px;
   }
   .slider-content h2 {
-    font-size: 34px;
+    font-size: 26px;
   }
   .scroll-down {
     display: none;
@@ -1095,7 +1102,7 @@
     display: none;
   }
   .slider-content h2 {
-    font-size: 28px;
+    font-size: 22px;
   }
   .skill,
   .fact-box {

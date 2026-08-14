@@ -3191,21 +3191,21 @@ Portfolio section css
 
 .portfolio-figure--forum,
 .portfolio-figure--netflix,
-.portfolio-figure--amazon,
+.portfolio-figure--buyzone,
 .portfolio-figure--memory,
 .portfolio-figure--task,
 .portfolio-figure--chatroom,
-.portfolio-figure--chatgpt {
+.portfolio-figure--sparky {
   background-color: #12161e;
 }
 
 .portfolio-block figure.portfolio-figure--forum img.portfolio-img--fit,
 .portfolio-block figure.portfolio-figure--netflix img.portfolio-img--fit,
-.portfolio-block figure.portfolio-figure--amazon img.portfolio-img--fit,
+.portfolio-block figure.portfolio-figure--buyzone img.portfolio-img--fit,
 .portfolio-block figure.portfolio-figure--memory img.portfolio-img--fit,
 .portfolio-block figure.portfolio-figure--task img.portfolio-img--fit,
 .portfolio-block figure.portfolio-figure--chatroom img.portfolio-img--fit,
-.portfolio-block figure.portfolio-figure--chatgpt img.portfolio-img--fit {
+.portfolio-block figure.portfolio-figure--sparky img.portfolio-img--fit {
   position: relative;
   z-index: 1;
   object-fit: contain;
@@ -3219,7 +3219,7 @@ Portfolio section css
   figure.portfolio-figure--netflix
   img.portfolio-img--fit,
 .portfolio-box:hover
-  figure.portfolio-figure--amazon
+  figure.portfolio-figure--buyzone
   img.portfolio-img--fit,
 .portfolio-box:hover
   figure.portfolio-figure--memory
@@ -3231,7 +3231,7 @@ Portfolio section css
   figure.portfolio-figure--chatroom
   img.portfolio-img--fit,
 .portfolio-box:hover
-  figure.portfolio-figure--chatgpt
+  figure.portfolio-figure--sparky
   img.portfolio-img--fit {
   -webkit-transform: scale(1.04);
   transform: scale(1.04);

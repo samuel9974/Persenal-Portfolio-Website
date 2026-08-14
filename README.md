@@ -105,11 +105,11 @@ flowchart TD
 | ------- | ----- | ---- | ------ |
 | **EvaNetflex Clone** | React · Vite · TMDB | [Live](https://netfffmovie.netlify.app/) | [Repo](https://github.com/samuel9974/EvaNetflexClone) |
 | **AI-Powered Evangadi Forum** | React · Express · MySQL · Gemini | [Live](https://ai-forum.samuelwbaneh.com) | [Repo](https://github.com/samuel9974/AI_Powered_Forum) |
-| **Amazon Clone** | React · Vite · Express · MySQL | — | [Repo](https://github.com/samuel9974/Amazon-Clone) |
+| **BuyZone** | React · Vite · Express · MySQL | — | [Repo](https://github.com/samuel9974/Amazon-Clone) |
 | **Memory Matching Game** | JavaScript · Bootstrap · HTML5 · CSS3 | [Live](https://samuel9974.github.io/nasa-memory-game-apod/) | [Repo](https://github.com/samuel9974/nasa-memory-game-apod) |
 | **Dynamic Task Manager** | JavaScript · Bootstrap · HTML5 · CSS3 | [Live](https://samuel9974.github.io/Dynamic-Task-Manager-Wep-App/) | [Repo](https://github.com/samuel9974/Dynamic-Task-Manager-Wep-App) |
 | **Chatroom Web Application** | Node.js · Express · MySQL | [Live](https://samuel9974.github.io/chatroom-web-app/) | [Repo](https://github.com/samuel9974/chatroom-web-app) |
-| **ChatGPT Clone** | React · Vite · Express · MySQL · Gemini | [Live](https://chat.samuelwbaneh.com/) | [Repo](https://github.com/samuel9974/ChatGpt-Clone) |
+| **Sparky AI** | React · Vite · Express · MySQL · Gemini · JWT | [Live](https://chat.samuelwbaneh.com/) | [Repo](https://github.com/samuel9974/ChatGpt-Clone) |
 
 ---
 
@@ -309,11 +309,11 @@ Persenal-Portfolio-Website/
 │   ├── modules.jpg             # Hero slider background
 │   ├── Netflex-logo.png        # Portfolio project thumbnails
 │   ├── AI-Forum.png
-│   ├── amazon-clone-banner.png
+│   ├── buyzone-banner.png
 │   ├── memory-game-banner.png
 │   ├── task-manager-banner.png
 │   ├── chatroom-banner.png
-│   ├── ChatGPT.png
+│   ├── sparky-ai-banner.png
 │   ├── education-logo.png
 │   ├── mouse.svg               # Scroll-down indicator
 │   └── bg/                     # Section background images
